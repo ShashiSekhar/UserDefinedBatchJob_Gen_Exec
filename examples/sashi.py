@@ -1,0 +1,13 @@
+from incl import *
+print('Launching firefox')
+subprocess.Popen('firefox', stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+time.sleep(2)
+mvcl(651,119)
+typewrite('youtube.com',interval=0.1)
+press('enter')
+time.sleep(5)
+mvcl(906,188)
+typewrite('shakira loca loca',interval=0.1)
+press('enter')
+time.sleep(5)
+mvcl(625,342)
